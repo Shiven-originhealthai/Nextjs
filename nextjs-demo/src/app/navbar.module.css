@@ -1,0 +1,24 @@
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(100, 126, 163);
+    padding:3px 40px 0 10px;
+}
+
+.share{
+    background-color:rgb(7, 65, 131);
+    color:azure;
+    width:100%;
+    max-width:130px;
+    height:50px;
+    border:none;
+    font-size: 16px;
+    transition: all 0.5s
+}
+.share:hover{
+    cursor:pointer;
+    background-color: rgb(24, 80, 144);
+}
