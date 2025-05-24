@@ -1,12 +1,17 @@
 'use client'
-import style from  '../navbar.module.css';
+import style from '../navbar.module.css';
+import { useState } from 'react';
 import { useRouter } from "next/navigation"
-export default function Navbar(){
+import Media from './mediagrid';
+export default function Navbar() {
     const route = useRouter();
-    function Direct(){
+    const [state, setState] = useState<boolean>(false);
+    function Direct() {
         console.log('clicked');
+        setState(true);
+        <Media stateshare={state}/>
     }
-    return( 
+    return (
         <div>
             <nav className={style.navbar}>
                 <button className={style.share} onClick={Direct}>Share</button>

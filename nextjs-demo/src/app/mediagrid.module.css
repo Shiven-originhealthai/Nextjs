@@ -14,5 +14,18 @@
     color:white;
 }
 .image{
-    border-radius: 8%;
+    border-radius: 6%;
+}
+.image:hover{
+    cursor:pointer;
+}
+.selectButton{
+    width:20px;
+    height:30px;
+    border:1px solid white;
+    background-color: red;
+    
+}
+@media(max-width:500px){
+    
 }

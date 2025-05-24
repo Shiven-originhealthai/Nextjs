@@ -22,3 +22,9 @@
     cursor:pointer;
     background-color: rgb(24, 80, 144);
 }
+@media(max-width:500px){
+    .share{
+        max-width: 70px;
+        height:40px
+    }
+}
