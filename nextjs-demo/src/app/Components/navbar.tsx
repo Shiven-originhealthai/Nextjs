@@ -9,13 +9,13 @@ export default function Navbar() {
     function Direct() {
         console.log('clicked');
         setState(true);
-        <Media stateshare={state}/>
     }
     return (
         <div>
             <nav className={style.navbar}>
                 <button className={style.share} onClick={Direct}>Share</button>
             </nav>
+            {state && <Media stateshare={state}/>}
         </div>
     )
 }
