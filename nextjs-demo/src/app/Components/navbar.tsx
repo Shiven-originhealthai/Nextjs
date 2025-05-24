@@ -15,7 +15,7 @@ export default function Navbar() {
             <nav className={style.navbar}>
                 <button className={style.share} onClick={Direct}>Share</button>
             </nav>
-            {state && <Media stateshare={state}/>}
+            <Media stateshare={state}/>
         </div>
     )
 }

@@ -19,12 +19,24 @@
 .image:hover{
     cursor:pointer;
 }
+.select{
+    position:relative;
+
+}
 .selectButton{
-    width:20px;
-    height:30px;
-    border:1px solid white;
-    background-color: red;
-    
+    position: absolute;
+    top:17px;
+    left:10px;
+    width:25px;
+    height:25px;
+    border:3px solid white;
+    background:transparent;
+    border-radius: 15px;
+
+
+}
+.blank{
+    background-color: white;
 }
 @media(max-width:500px){
     
